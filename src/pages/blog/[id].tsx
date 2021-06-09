@@ -11,7 +11,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await fetchAllPosts()
   const paths = posts.map(({ id }) => `/blog/${id}`)
 
-  return { 
+  return {
     paths,
     fallback: false
   }
