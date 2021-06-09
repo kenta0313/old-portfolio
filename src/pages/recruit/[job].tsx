@@ -114,7 +114,7 @@ const jobDetails: JobDetail[] = [
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = jobs.map((job) => `/recruit/${job}`)
 
-  return { 
+  return {
     paths,
     fallback: false
   }
