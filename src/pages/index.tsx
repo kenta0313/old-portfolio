@@ -20,7 +20,6 @@ interface Item {
 
 interface Introduction {
   title: string
-  description: string
   action: string
   href: string
 }
@@ -44,21 +43,18 @@ const Home: React.FC = () => {
   const introductions: Introduction[] = [
     {
       title: "About",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      action: "About Company >",
+      action: "About >",
       href: "/About"
     },
     {
-      title: "Recruit",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      action: "About Recruit >",
-      href: "/recruit"
+      title: "Work",
+      action: "Work >",
+      href: "/blog/page/1"
     },
     {
-      title: "Recruit",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      action: "About Recruit >",
-      href: "/recruit"
+      title: "Contact",
+      action: "Contact >",
+      href: "/contact"
     }
   ]
 
@@ -77,7 +73,6 @@ const Home: React.FC = () => {
                     <Introductions
                       index={index}
                       title={introduction.title}
-                      description={introduction.description}
                       action={introduction.action}
                       href={introduction.href}
                     />

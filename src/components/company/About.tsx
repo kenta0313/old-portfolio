@@ -18,24 +18,20 @@ const createData = (key: string, value: string) => {
 
 interface AboutProps {
   name: string
-  founded: string
-  capital: string
-  ceo: string
+  birthday: string
+  skill: string
   address: string
-  service: string
   mail: string
 }
 
-const About = ({ name, founded, capital, ceo, address, service, mail }: AboutProps) => {
+const About = ({ name, birthday, skill, address, mail }: AboutProps) => {
   const classes = useStyles()
 
   const rows = [
     createData("Name", name),
-    createData("Founded", founded),
-    createData("Capital", capital),
-    createData("CEO", ceo),
+    createData("Birthday", birthday),
+    createData("Skill", skill),
     createData("Address", address),
-    createData("Service", service),
     createData("Mail", mail),
   ]
 

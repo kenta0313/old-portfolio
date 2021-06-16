@@ -13,11 +13,9 @@ const useStyles = makeStyles(() => ({
 
 interface About {
   name: string
-  founded: string
-  capital: string
-  ceo: string
+  birthday: string
+  skill: string
   address: string
-  service: string
   mail: string
 }
 
@@ -25,13 +23,11 @@ const Company: React.FC = () => {
   const classes = useStyles()
 
   const about: About = {
-    name: "ABC Company",
-    founded: "2021/01/01",
-    capital: "20,000,000 JPY",
-    ceo: "Taro Yamada",
-    address: "Tokyo Skytree 1 Chome-1-2 Oshiage, Sumida, Tokyo",
-    service: "Engineering",
-    mail: "abc@example.com"
+    name: "Asano Kenta",
+    birthday: "1998/03/13",
+    skill: "React,ReactNative,Next.js,Javascript,Typescript,Node,GraphQL,HTML,CSS,SASS,AWS(serverlessarchitecture)",
+    address: "Tokyo",
+    mail: "asanokenta@me.com"
   }
 
   return (
@@ -51,11 +47,9 @@ const Company: React.FC = () => {
             <Container maxWidth="lg" className={classes.container}>
               <About
                 name={about.name}
-                founded={about.founded}
-                capital={about.capital}
-                ceo={about.ceo}
+                birthday={about.birthday}
+                skill={about.skill}
                 address={about.address}
-                service={about.service}
                 mail={about.mail}
               />
             </Container>
