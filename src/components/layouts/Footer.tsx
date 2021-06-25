@@ -66,6 +66,15 @@ const Footer = () => {
           justify="center"
         >
           <Typography className={classes.copylight}>
+            <a style={{ color: "blue" }} href="mailto:asanokenta@me.com">asanokenta@me.com</a>
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          container
+          justify="center"
+        >
+          <Typography className={classes.copylight}>
             &copy;{new Date().getFullYear()} Asano's Portfolio
           </Typography>
         </Grid>

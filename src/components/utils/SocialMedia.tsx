@@ -5,6 +5,7 @@ import MailIcon from "@material-ui/icons/Mail"
 import TwitterIcon from "@material-ui/icons/Twitter"
 import InstagramIcon from "@material-ui/icons/Instagram"
 import FacebookIcon from "@material-ui/icons/Facebook"
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme: Theme) => ({
   snsIcon: {
@@ -44,33 +45,9 @@ const SocialMedia = ({ color }: SocialMediaProps) => {
         component={"a"}
         target="_blank"
         rel="noreferrer noopener"
-        href=""
+        href="https://github.com/kenta0313"
       >
-        <TwitterIcon
-          className={classes.snsIcon}
-          color={color ? "primary" : "secondary"}
-        />
-      </Grid>
-      <Grid
-        item
-        component={"a"}
-        target="_blank"
-        rel="noreferrer noopener"
-        href=""
-      >
-        <InstagramIcon
-          className={classes.snsIcon}
-          color={color ? "primary" : "secondary"}
-        />
-      </Grid>
-      <Grid
-        item
-        component={"a"}
-        target="_blank"
-        rel="noreferrer noopener"
-        href=""
-      >
-        <FacebookIcon
+        <GitHubIcon
           className={classes.snsIcon}
           color={color ? "primary" : "secondary"}
         />
