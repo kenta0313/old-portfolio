@@ -44,7 +44,7 @@ const Home: React.FC = () => {
     {
       title: "About",
       action: "About >",
-      href: "/About"
+      href: "/about"
     },
     {
       title: "Work",
