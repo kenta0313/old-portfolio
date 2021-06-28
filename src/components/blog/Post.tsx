@@ -8,7 +8,7 @@ const useStyles = makeStyles(() => ({
   container: {
     marginTop: "3rem",
     maxWidth: "800px",
-    overflow: "hidden"
+    overflow: "hidden",
   }
 }))
 

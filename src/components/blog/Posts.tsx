@@ -10,6 +10,7 @@ const useStyles = makeStyles(() => ({
   card: {
     marginBottom: "0.5rem",
     transition: "all 0.3s",
+    width: 300,
     "&:hover": {
       boxShadow:
         "1px 0px 20px -1px rgba(0,0,0,0.2), 0px 0px 20px 5px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)",
@@ -18,7 +19,7 @@ const useStyles = makeStyles(() => ({
   },
   cardMedia: {
     height: 0,
-    paddingTop: "56.25%"
+    paddingTop: "56.25%",
   }
 }))
 
