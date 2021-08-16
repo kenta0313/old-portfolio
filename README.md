@@ -1,6 +1,13 @@
-asano's Portfolio
+## URL
 
-Technology used :
-next.js
-materialui
-micricms
+[https://newportfolio-nine.vercel.app/](https://newportfolio-nine.vercel.app/) 
+
+## 使用技術
+
+### フロントエンド
+- React
+- Next.js
+- Typescript
+
+### バックエンド
+- microcms
